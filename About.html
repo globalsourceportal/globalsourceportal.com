@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Global Sourcing Limited.
+        </title>
+        <style>
+            .thumbnail {
+            width: 1250px;
+            flex: 4;
+            height: 600px;
+            }
+
+            .Website-logo {
+            display: inline-block;
+            width: 150px;
+            margin-right: 170px;
+            }
+
+            .middle-section {
+            background-color: lightpink;
+            flex: 1;
+            display: inline-block;
+            margin-left: 170px;
+            }
+
+            .right-section {
+            background-color: lightblue;
+            width: 200px;
+            }
+
+            .logo {
+            width: 300px;
+            }
+
+            .navigation {
+            width: 30px;
+            display: inline-block;
+            margin-right: 175px;
+            margin-left: 40px;
+            margin-bottom: 60px;
+            display: inline-block;
+            }
+
+            .home-button {
+            font-size: 24px;
+            margin-left: 60px;
+            color: rgb(3, 81, 3);
+            cursor: pointer;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            display: inline-block;
+            }
+            .home-button:hover {
+            color: red;
+            }
+
+            .navigation2 {
+            display: inline-block;
+            width: 30px;
+            }
+
+            .about-button {
+            font-size: 24px;
+            color: rgb(226, 20, 20);
+            cursor: pointer;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            display: inline-block;
+            }
+            .about-button:hover {
+            color: red;
+            }
+
+            .navigation3 {
+            display: inline-block;
+            width: 30px;
+            margin-left: 100px;
+            }
+
+            .contact-button {
+            font-size: 24px;
+            color: rgb(3, 81, 3);
+            cursor: pointer;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            display: inline-block;
+            }
+            .contact-button:hover {
+            color: red;
+            }
+
+            .photo-paste {
+                width: 1250px;
+                position: relative;
+                height: 600px;
+            }
+
+            .subtitle {
+                font-size: 15px;
+                color: rgb(128, 128, 128);
+                margin-left: 110px;
+                position: absolute;
+                top: 40%;
+            }
+
+            .title {
+                font-size: 43px;
+                font-weight: 700;
+                margin-left: 110px;
+                position: absolute;
+                top: 50%;
+                width: 400px;
+            }
+
+            .info {
+                font-size: 18px;
+                margin-left: 110px;
+                position: absolute;
+                top: 70%;
+                width: 525px;
+                display: inline-block;
+            }
+
+            .network {
+                color: rgb(221, 3, 3);
+            }
+
+            .enjoy {
+                color: rgb(116, 112, 112);
+                font-size: 18px;
+                margin-left: 110px;
+                position: absolute;
+                top: 95%;
+                width: 525px;
+                display: inline-block;
+            }
+
+            .consult {
+                margin-left: 800px;
+                position: absolute;
+                top: 60%;
+            }
+
+            .wpb_column {
+                width: 1250px;
+                background-color: rgb(5, 86, 5);
+                height: 200px;
+                position: relative;
+            }
+
+            .country {
+                font-size: 22px;
+                margin-left: 80px;
+                color: #fff;
+                position: absolute;
+                top: 17%;
+            }
+
+            .tel {
+                font-size: 19px;
+                margin-left: 80px;
+                color: #898585;
+                position: absolute;
+                top: 35%;
+                display: inline-block;
+            }
+
+            .digits {
+                font-size: 19px;
+                margin-left: 950px;
+                color: #d30707;
+                position: absolute;
+                top: 45%;
+                cursor: pointer;
+            }
+            .digits:hover {
+                color: rgb(0, 94, 128);
+            }
+
+            .one {
+                display: block;
+                color: #d30707;
+                position: absolute;
+                top: 90%;
+                cursor: pointer;
+            }
+            .one:hover {
+                color: rgb(0, 94, 128);
+            }
+
+            .two {
+                display: block;
+                color: #d30707;
+            }
+            .two:hover {
+                color: rgb(0, 94, 128);
+            }
+
+            .three {
+                display: block;
+                color: #d30707;
+                top: 90%;
+                cursor: text;
+            }
+            .three:hover {
+                color: rgb(0, 94, 128);
+            }
+
+            .look {
+                font-size: 19px;
+                margin-left: 80px;
+                color: #898585;
+                position: absolute;
+                top: 70%;
+                display: inline-block;
+            }
+
+            .link {
+                font-size: 17px;
+                margin-left: 140px;
+                color: #d30707;
+                position: absolute;
+                top: 143px;
+                display: inline-block;
+                cursor: pointer;
+            }
+            .link:hover {
+                color: rgb(0, 94, 128);
+            }
+
+            .wpb_column2 {
+                width: 1250px;
+                background-color: rgb(1, 49, 1);
+                height: 320px;
+                position: relative;
+                flex: 1;
+            }
+
+            .more-so {
+                font-size: 18px;
+                margin-left: 110px;
+                width: 350px;
+                color: rgb(218, 222, 224);
+                display: inline-block;
+            }
+
+            .widget-title {
+                color: rgb(255, 255, 255);
+                margin-left: 800px;
+                font-size: 20px;
+                font-family: 'Courier New', Courier, monospace;
+                position: absolute;
+                top: 10%;
+            }
+
+            .home {
+                color: rgb(168, 163, 163);
+                cursor: pointer;
+                font-size: 18px;
+                margin-left: 800px;
+                position: absolute;
+                top: 35%;
+            }
+            .home:hover {
+                color: rgb(207, 17, 17);
+            }
+
+            .about {
+                color: rgb(168, 163, 163);
+                cursor: pointer;
+                font-size: 18px;
+                margin-left: 800px;
+                position: absolute;
+                top: 45%;
+            }
+            .about:hover {
+                color: rgb(207, 17, 17);
+            }
+
+            .contact {
+                color: rgb(168, 163, 163);
+                cursor: pointer;
+                font-size: 18px;
+                margin-left: 800px;
+                position: absolute;
+                top: 55%;
+            }
+            .contact:hover {
+                color: rgb(207, 17, 17);
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <div class="Website-logo">
+                <div>
+                    <img class="logo" src="www.globalsourcing/upload/WEBSITE LOGO 2.png">
+                </div>
+            </div>
+
+            <div class="Website-logo">
+                <div>
+                    
+                </div>
+            </div>
+            <div class="navigation">
+                <div>
+                    <a href="https://www.globalsourceportal.com/">
+                        <span class="home-button">Home</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="navigation2">
+                <div>
+                    <a href="/About.html">
+                        <span class="about-button">About</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="navigation3">
+                <div>
+                    <a href="/Contact.html">
+                        <span class="contact-button">Contact</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <link rel="stylesheet" href="about-us.css">
+        <div class="photo-base">
+            <div class="photo-paste">
+                <div>
+                    <img class="thumbnail" src="thumbnails/bg-2-01.png">
+                </div>
+            </div>
+            <div class="About-discript">
+                <h4 class="subtitle">GLOBAL SOURCING LIMITED</h4>
+                <h1 class="title">Procurement & Investment</h1>
+                <p class="info">
+                    Global Sourcing Limited is a company that has expertise in procurement and tendering of services and products. We are also dealers, distributors, importers and exporters of all general merchandise, agri-based items, precious minerals and logistics and freight forwarding. We are Uganda's premier courier and integrated express package, We have the most,
+                    <span class="network">extensive global and domestic network.</span>
+                </p>
+                <p class="enjoy">
+                    We enjoy an exemplary reputation for delivering cost management services to a chosen number of successful businesses throughout Uganda, East Africa and other major global business hubs. Our highly personalised approach combined with a meticulous attention to detail, provides a unique ability to forge lasting partnerships, the kind it takes to deliver end results that are both measurable and sustainable.
+                </p>
+                <div class="side-pic">
+                    <div>
+                        <img class="consult" src="thumbnails/Consultation-370x315.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-maps">
+          <div class="wpb_column">
+            <div class="region">
+              <span class="country">Uganda</span>
+            </div>
+            <div class="contact">
+              <span class="tel">Phone:</span>
+            </div>
+            <div class="digits">
+              <span class="one">+256 753063221</span>
+              <span class="two">+254 792097447</span>
+              <span class="three">+256 774226695</span>
+            </div>
+            <div class="email">
+              <span class="look">Email:</span>
+            </div>
+            <div class="link">
+              <span class="up">info@globalsourceportal.com</span>
+            </div>
+          </div>
+
+          <div class="wpb_column2">
+            <div>
+              <img class="logo" src="www.globalsourcing/upload/WEBSITE LOGO 2.png">
+            </div>
+            <div class="more">
+              <p class="more-so">
+                Globalyasirco Procurement and Logistics company deals in procurement and tendering of services and products, We are also dealers, distributors, importers & exporters of all general agri-based, mechanical products, Logistics and Freight Forwarding.
+              </p>
+            </div>
+            <div class="widget">
+              <h4 class="widget-title">Quick Links</h4>
+            </div>
+            <div class="task">
+              <div>
+                <a href="https://www.globalsourceportal.com/">
+                    <span class="home">Home</span>
+                </a>
+              </div>
+              <div>
+                <a href="/About.html">
+                    <span class="about">About</span>
+                </a>
+              </div>
+              <div>
+                <a href="/Contact.html">
+                    <span class="contact">Contact</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </body>
+</html>

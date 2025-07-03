@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Global Sourcing Limited.
+        </title>
+        <style>
+            .thumbnail {
+                width: 1250px;
+                height: 600px;
+            }
+
+            .Website-logo {
+                display: inline-block;
+                width: 150px;
+                margin-right: 170px;
+            }
+
+            .middle-section {
+                background-color: lightpink;
+                flex: 1;
+                display: inline-block;
+                margin-left: 170px;
+            }
+
+            .right-section {
+                background-color: lightblue;
+                width: 200px;
+            }
+
+            .logo {
+                width: 300px;
+            }
+
+            .navigation {
+                width: 30px;
+                display: inline-block;
+                margin-right: 175px;
+                margin-left: 40px;
+                margin-bottom: 60px;
+                display: inline-block;
+            }
+
+            .home-button {
+                font-size: 24px;
+                margin-left: 60px;
+                color: rgb(3, 81, 3);
+                cursor: pointer;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                display: inline-block;
+            }
+            .home-button:hover {
+                color: red;
+            }
+
+            .navigation2 {
+                display: inline-block;
+                width: 30px;
+            }
+
+            .about-button {
+                font-size: 24px;
+                color: rgb(3, 81, 3);
+                cursor: pointer;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                display: inline-block;
+            }
+            .about-button:hover {
+                color: red;
+            }
+
+            .navigation3 {
+                display: inline-block;
+                width: 30px;
+                margin-left: 100px;
+            }
+
+            .contact-button {
+                font-size: 24px;
+                color: rgb(226, 20, 20);
+                cursor: pointer;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                display: inline-block;
+            }
+            .contact-button:hover {
+                color: red;
+            }
+
+            .wpb_wrapper {
+                color: rgb(24, 24, 24);
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                margin-left: 128px;
+                line-height: 26.124px;
+                width: 216px;
+                position: absolute;
+                top: 45%;
+            }
+
+            .wpb_wrapper2 {
+                color: rgb(24, 24, 24);
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                height: 101.422px;
+                line-height: 26.124px;
+                width: 216px;
+                margin-left: 7px;
+                position: absolute;
+                top: 48%;
+            }
+
+            .info{
+                font-size: 12px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-style: normal;
+                position: absolute;
+                top: 57%;
+                width: 162px;
+                display: inline-block;
+            }
+
+            .phone{
+                color: rgb(223, 53, 53);
+                text-transform: none;
+            }
+            .phone:hover{
+                color: rgb(52, 52, 197);
+            }
+
+            .mail{
+                color: rgb(223, 53, 53);
+                text-transform: none;
+                display: inline-block;
+            }
+
+            .mail:hover{
+                color: rgb(52, 52, 197);
+            }
+
+            .wpb_wrapper3 {
+                color: rgb(24, 24, 24);
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 400;
+                height: 42.9844px;
+                line-height: 26.124px;
+                width: 346px;
+                margin-left: 480px;
+                position: absolute;
+                top: 36%;
+            }
+
+            .span4{
+                font-size: 16px;
+                color: rgb(175, 174, 173);
+            }
+
+            .controls{
+                width: 10px;
+                height: 60px;
+            }
+
+            .span5 {
+                font-size: 16px;
+                color: rgb(175, 174, 173);
+                margin-left: 260px;
+                position: absolute;
+                top: 210%;
+            }
+
+            .span6{
+                font-size: 16px;
+                color: rgb(175, 174, 173);
+                position: absolute;
+                top: 350%;
+            }
+
+            .span12{
+                font-size: 16px;
+                color: rgb(175, 174, 173);
+                position: absolute;
+                top: 500%;
+            }
+
+            .controls1 {
+                font-size: 20px;
+                margin-left: 335px;
+                position: absolute;
+                top: 920%;
+            }
+
+            .wpb_column2 {
+                width: 1250px;
+                background-color: rgb(1, 49, 1);
+                height: 320px;
+                position: relative;
+                flex: 1;
+            }
+
+            .more-so {
+                font-size: 18px;
+                margin-left: 110px;
+                width: 350px;
+                color: rgb(218, 222, 224);
+                display: inline-block;
+            }
+
+            .widget-title {
+                color: rgb(255, 255, 255);
+                margin-left: 800px;
+                font-size: 20px;
+                font-family: 'Courier New', Courier, monospace;
+                position: absolute;
+                top: 10%;
+            }
+
+            .home {
+                color: rgb(168, 163, 163);
+                cursor: pointer;
+                font-size: 18px;
+                margin-left: 800px;
+                position: absolute;
+                top: 35%;
+            }
+            .home:hover {
+                color: rgb(207, 17, 17);
+            }
+
+            .about {
+                color: rgb(168, 163, 163);
+                cursor: pointer;
+                font-size: 18px;
+                margin-left: 800px;
+                position: absolute;
+                top: 45%;
+            }
+            .about:hover {
+                color: rgb(207, 17, 17);
+            }
+
+            .contact1 {
+                color: rgb(168, 163, 163);
+                cursor: pointer;
+                font-size: 18px;
+                margin-left: 800px;
+                position: absolute;
+                top: 55%;
+            }
+            .contact1:hover {
+                color: rgb(207, 17, 17);
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <div class="Website-logo">
+                <div>
+                    <img class="logo" src="www.globalsourcing/upload/WEBSITE LOGO 2.png">
+                </div>
+            </div>
+
+            <div class="Website-logo">
+                <div>
+
+                </div>
+            </div>
+
+            <div class="navigation">
+                <div>
+                    <a href="https://www.globalsourceportal.com/">
+                        <span class="home-button">Home</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="navigation2">
+                <div>
+                    <a href="/About.html">
+                        <span class="about-button">About</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="navigation3">
+                <div>
+                    <a href="/Contact.html">
+                        <span class="contact-button">Contact</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <link rel="stylesheet" href="contact.css">
+
+        <div class="photo-base">
+            <div class="photo-paste">
+                <div>
+                    <img class="thumbnail" src="thumbnails/bg-2-01.png">
+                </div>
+            </div>
+            <div class="vc_empty_space" style="height: 5.4em">
+                <span class="vc_empty_space_inner"></span>
+            </div>
+            <div class="wpb_wrapper">
+                <div class="wpb_text_column">
+                    <div>
+                        <h1 class="for-more">Find Us</h1>
+                    </div>
+                </div>
+                <div class="vc_empty_space" style="height: 2.2em">
+                    <span class="vc_empty_space_inner"></span>
+                </div>
+                <div class="wpb_text_column">
+                    <div class="wpb_wrapper2">
+                        <h6>Reach Us Through</h6>
+                        <address class="info">Phone: <a href="tel:256753063221" class="phone">+256 753 063221</a>
+                            <a href="tel:254792097447" class="phone">+254 792 097447</a>
+                            <a href="tel:256774226695" class="phone">+256 774 226695</a><br>
+                            Email: <a href="mailto:info@globalsourceportal.com" class="mail">info@globalsourceportal.com</a>
+                        </address>
+                    </div>
+                </div>
+            </div>
+            <div class="wpb_wrapper3">
+                <div>
+                    <h1 class="message">Send Message</h1>
+                    <div class="span4">
+                        <label id="jform_contact_name-lbl" for="jform_contact_name" class="hasPopover required" title="" data-content="Your name." data-original-title="Name">
+                            Name
+                            <span class="star">&nbsp;*</span>
+                        </label>
+                        <div class="controls">
+                            <input type="text" name="jform[contact_name]" id="jform_contact_name" value="" class="required" size="30" required="required" aria-required="true">
+                        </div>
+                    </div>
+                    <div class="span5">
+                        <label id="jform_contact_email-lbl" for="jform_contact_email" class="hasPopover required" title="" data-content="Email Address for contact." data-original-title="Email">
+                            Email
+                            <span class="star">&nbsp;*</span>
+                        </label>
+                        <div class="controls">
+                            <input type="email" name="jform[contact_email]" class="validate-email required" id="jform_contact_email" value="" size="30" autocomplete="email" required="required" aria-required="true">
+                        </div>
+                    </div>
+                    <div class="span6">
+                        <label id="jform_contact_emailmsg-lbl" for="jform_contact_emailmsg" class="hasPopover required" title="" data-content="Enter the subject of your message here." data-original-title="Subject">
+                            Subject
+                            <span class="star">&nbsp;*</span>
+                        </label>
+                        <div class="controls">
+                            <input type="text" name="jform[contact_subject]" id="jform_contact_emailmsg" value="" class="required" size="60" required="required" aria-required="true">
+                        </div>
+                    </div>
+                    <div class="span12">
+                        <label id="jform_contact_message-lbl" for="jform_contact_message" class="hasPopover required" title="" data-content="Enter your message here." data-original-title="Message">
+                            Message
+                            <span class="star">&nbsp;*</span>
+                        </label>
+                        <div class="controls">
+                            <textarea name="jform[contact_message]" id="jform_contact_message" cols="50" rows="10" class="required" required="required" aria-required="true">
+
+                            </textarea>
+                        </div>
+                        <div class="control-group">
+                            <div class="controls"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="controls1">
+                    <button class="btn validate btn-primary pull-right" type="submit">
+                        Email
+                    </button>
+                </div>
+            </div>
+            <div class="wpb_column2">
+                <div class="wpb_foot">
+                    <div>
+                        <img class="logo" src="www.globalsourcing/upload/WEBSITE LOGO 2.png">
+                    </div>
+                    <div class="more">
+                        <p class="more-so">
+                            Globalyasirco Procurement and Logistics company deals in procurement and tendering of services and products, We are also dealers, distributors, importers & exporters of all general agri-based, mechanical products, Logistics and Freight Forwarding.
+                        </p>
+                    </div>
+                    <div class="widget">
+                        <h4 class="widget-title">Quick Links</h4>
+                    </div>
+                    <div class="task">
+                        <div>
+                          <a href="https://www.globalsourceportal.com/">
+                            <span class="home">Home</span>
+                          </a>
+                        </div>
+                        <div>
+                          <a href="/About.html">
+                            <span class="about">About</span>
+                          </a>
+                        </div>
+                        <div>
+                          <a href="/Contact.html">
+                            <span class="contact1">Contact</span>
+                          </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

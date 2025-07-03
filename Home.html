@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Global Sourcing Limited.
+        </title>
+        <style>
+          .thumbnail {
+            width: 400px;
+          }
+
+          .Website-logo {
+            display: inline-block;
+            width: 150px;
+            margin-right: 170px;
+          }
+
+          .middle-section {
+            background-color: lightpink;
+            flex: 1;
+            display: inline-block;
+            margin-left: 170px;
+          }
+
+          .right-section {
+            background-color: lightblue;
+            width: 200px;
+          }
+
+          .photo-title {
+            font-size: 24px;
+          }
+
+          .description {
+            width: 400px;
+          }
+
+          .photo-grid {
+            width: 300px;
+            display: inline-block;
+            margin-right: 175px;
+            margin-left: 40px;
+          }
+
+          .text-column{
+            font-size: 24px;
+          }
+
+          .header {
+            display: block;
+          }
+
+          .logo {
+            width: 300px;
+          }
+
+          .navigation {
+            width: 30px;
+            display: inline-block;
+            margin-right: 175px;
+            margin-left: 40px;
+            margin-bottom: 60px;
+            display: inline-block;
+          }
+
+          .home-button {
+            font-size: 24px;
+            margin-left: 60px;
+            color: rgb(226, 20, 20);
+            cursor: pointer;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            display: inline-block;
+          }
+          .home-button:hover {
+            color: red;
+          }
+          
+          .navigation2 {
+            display: inline-block;
+            width: 30px;
+          }
+
+          .about-button {
+            font-size: 24px;
+            color: rgb(3, 81, 3);
+            cursor: pointer;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            display: inline-block;
+          }
+          .about-button:hover {
+            color: red;
+          }
+
+          .navigation3 {
+            display: inline-block;
+            width: 30px;
+            margin-left: 100px;
+          }
+
+          .contact-button {
+            font-size: 24px;
+            color: rgb(3, 81, 3);
+            cursor: pointer;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            display: inline-block;
+          }
+          .contact-button:hover {
+            color: red;
+          }
+
+          .wpb_column {
+            width: 1250px;
+            background-color: rgb(5, 86, 5);
+            height: 200px;
+            position: relative;
+          }
+
+          .country {
+            font-size: 22px;
+            margin-left: 80px;
+            color: #fff;
+            position: absolute;
+            top: 17%;
+          }
+
+          .tel {
+            font-size: 19px;
+            margin-left: 80px;
+            color: #898585;
+            position: absolute;
+            top: 35%;
+            display: inline-block;
+          }
+
+          .digits {
+            font-size: 19px;
+            margin-left: 140px;
+            color: #d30707;
+            position: absolute;
+            top: 35%;
+            cursor: pointer;
+          }
+          .digits:hover {
+            color: rgb(0, 94, 128);
+          }
+          
+          .one {
+            display: block;
+            color: #d30707;
+            position: absolute;
+            top: 90%;
+            cursor: pointer;
+          }
+          .one:hover {
+            color: rgb(0, 94, 128);
+          }
+
+          .two {
+            display: block;
+            color: #d30707;
+          }
+          .two:hover {
+            color: rgb(0, 94, 128);
+          }
+
+          .three {
+            display: block;
+            color: #d30707;
+            top: 90%;
+            cursor: text;
+          }
+          .tree:hover {
+            color: rgb(0, 94, 128);
+          }
+
+          .look {
+            font-size: 19px;
+            margin-left: 80px;
+            color: #898585;
+            position: absolute;
+            top: 70%;
+            display: inline-block;
+          }
+
+          .link {
+            font-size: 17px;
+            margin-left: 140px;
+            color: #d30707;
+            position: absolute;
+            top: 143px;
+            display: inline-block;
+            cursor: pointer;
+          }
+          .link:hover {
+            color: rgb(0, 94, 128);
+          }
+
+          .footer_wrap {
+            width: 100px;
+            background-color: rgb(3, 57, 3);
+            height: 200px;
+          }
+
+          .wpb_column2 {
+            width: 1250px;
+            background-color: rgb(1, 49, 1);
+            height: 320px;
+            position: relative;
+            flex: 1;
+          }
+          
+          .more-so {
+            font-size: 18px;
+            margin-left: 110px;
+            width: 350px;
+            color: rgb(218, 222, 224);
+            display: inline-block;
+          }
+
+          .widget-title {
+            color: rgb(255, 255, 255);
+            margin-left: 800px;
+            font-size: 20px;
+            font-family: 'Courier New', Courier, monospace;
+            position: absolute;
+            top: 10%;
+          }
+
+          .home {
+            color: rgb(168, 163, 163);
+            cursor: pointer;
+            font-size: 18px;
+            margin-left: 800px;
+            position: absolute;
+            top: 35%;
+          }
+          .home:hover {
+            color: rgb(207, 17, 17);
+          }
+
+          .about {
+            color: rgb(168, 163, 163);
+            cursor: pointer;
+            font-size: 18px;
+            margin-left: 800px;
+            position: absolute;
+            top: 45%;
+          }
+          .about:hover {
+            color: rgb(207, 17, 17);
+          }
+
+          .contact1 {
+            color: rgb(168, 163, 163);
+            cursor: pointer;
+            font-size: 18px;
+            margin-left: 800px;
+            position: absolute;
+            top: 55%;
+          }
+          .contact1:hover {
+            color: rgb(207, 17, 17);
+          }
+          
+        </style>
+    </head>
+    <body>
+      <div class="header">
+        <div class="Website-logo">
+          <div>
+            <img class="logo" src="www.globalsourcing/upload/WEBSITE LOGO 2.png">
+          </div>
+        </div>
+
+        <div class="Website-logo">
+          <div>
+            
+          </div>
+        </div>
+
+        <div class="navigation">
+          <div>
+            <a href="https://www.globalsourceportal.com/">
+              <span class="home-button">Home</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="navigation2">
+          <div>
+            <a href="/About.html">
+              <span class="about-button">About</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="navigation3">
+          <div>
+            <a href="/Contact.html">
+              <span class="contact-button">Contact</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <link rel="stylesheet" href="home.css">
+      <div class="photo-grid">
+        <div class="photo-preview">
+          <div>
+            <img class="thumbnail" src="thumbnails/coffe plant.jpg">
+          </div>
+          <div>
+            <h3 class="photo-title">
+              African Coffee
+            </h3>
+            <p class="description">
+              Coffee is a perennial crop. It is one of the most important cash crops in Uganda, playing a major role in the livelihoods of many people.
+            </p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="photo-grid">
+        <div class="photo-preview">
+          <div>
+            <img class="thumbnail" src="thumbnails/coffee seeds.jpg">
+          </div>
+          <div>
+            <h3 class="photo-title">
+              African Coffee
+            </h3>
+            <p class="description">
+              Are you in need of a wholesale coffee supplier?
+              Or are in need of a wholesale coffee buyer?
+              Then you have landed in the perfect place.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="text-column">
+        <div class="text-preview">
+          <p>
+            <span style="font-weight: 400;">
+              In the world of the food service industry, choose the right coffee partner to elevate your beverage offerings and captivate the taste buds of your clients and customers.
+              Global Sourcing emerges as your premier partner in this journey, setting the gold standard for commercial and wholesale coffee suppliers and buyers.
+            </span>
+          </p>
+        </div>
+      </div>
+
+      <div class="photo-grid">
+        <div class="photo-preview">
+          <div>
+            <img class="thumbnail" src="thumbnails/Yellow-Maize.jpg">
+          </div>
+          <div>
+            <h3 class="photo-title">
+              Bulk Yellow Maize Grain
+            </h3>
+            <p class="description">
+              Yellow maize is versatile, used in dishes like ugali and as popcorn, used for animal feed production, making it significant in various cuisines worldwide.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="photo-grid">
+        <div class="photo-preview">
+          <div>
+            <img class="thumbnail" src="thumbnails/White maize.jpg">
+          </div>
+          <div>
+            <h3 class="photo-title">
+              Bulk White Maize Grain
+            </h3>
+            <p class="description">
+              White maize is biologically and genetically very similar to yellow maize, although there is a difference in appearance due to the absence of carotin oil pigments in the kernel.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="text-column">
+        <div class="text-preview">
+          <p>
+            <span style="font-weight: 400;">
+              Maize is an exceptionally versatile product, and we connect you to the very best.
+              A staple food produced on many farms and eaten in many homes, maize, which is better known as corn in other nations, 
+              is grown and harvested allover the country and is known to thrive in all environments.
+            </span>
+          </p>
+        </div>
+      </div>
+
+      <div class="photo-grid">
+        <div class="photo-preview">
+          <div>
+            <img class="thumbnail" src="thumbnails/The-Bean-Bites.jpg">
+          </div>
+          <div>
+            <h3 class="photo-title">
+              The Bean Bites
+            </h3>
+            <p class="description">
+              Beans are legumes that provide many nutrients, such as protein, fiber, iron, folate, and antioxidants. 
+              They may help prevent or manage heart disease, diabetes, cancer, fatty liver, and other conditions
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="photo-grid">
+        <div class="photo-preview">
+          <div>
+            <img class="thumbnail" src="thumbnails/Green-mung-beans.webp">
+          </div>
+          <div>
+            <h3 class="photo-title">
+              Green mung beans
+            </h3>
+            <p class="description">
+              Mung beans are green legumes that are rich in protein, fiber, antioxidants and minerals.
+              They may help lower blood pressure, cholesterol, blood sugar and protect against heat stroke.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="text-column">
+        <div class="text-preview">
+          <p>
+            <span style="font-weight: 400;">
+              Beans, pulses, and legumes are some of the most nutritious and versatile ingredients you can cook with—and we’re here to help you fall in love with them, too.
+              From black beans to chickpeas, lentils to split peas, the variety is endless—and so are the ways you can enjoy them.
+            </span>
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-maps">
+        <div class="wpb_column">
+          <div class="region">
+            <span class="country">Uganda</span>
+          </div>
+          <div class="contact">
+            <span class="tel">Phone:</span>
+          </div>
+          <div class="digits">
+            <span class="one">+256 753063221</span>
+            <span class="two">+254 792097447</span>
+            <span class="three">+256 774226695</span>
+          </div>
+          <div class="email">
+            <span class="look">Email:</span>
+          </div>
+          <div class="link">
+            <span class="up">info@globalsourceportal.com</span>
+          </div>
+        </div>
+
+        <div class="wpb_column2">
+          <div>
+            <img class="logo" src="www.globalsourcing/upload/WEBSITE LOGO 2.png">
+          </div>
+          <div class="more">
+            <p class="more-so">
+              Globalyasirco Procurement and Logistics company deals in procurement and tendering of services and products, We are also dealers, distributors, importers & exporters of all general agri-based, mechanical products, Logistics and Freight Forwarding.
+            </p>
+          </div>
+          <div class="widget">
+            <h4 class="widget-title">Quick Links</h4>
+          </div>
+          <div class="task">
+            <div>
+              <a href="https://www.globalsourceportal.com/">
+                <span class="home">Home</span>
+              </a>
+            </div>
+            <div>
+              <a href="/About.html">
+                <span class="about">About</span>
+              </a>
+            </div>
+            <div>
+              <a href="/Contact.html">
+                <span class="contact1">Contact</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+</html>
